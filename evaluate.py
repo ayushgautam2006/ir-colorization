@@ -16,7 +16,7 @@ from models.generator import UNetGenerator
 
 # ---- CONFIG ----
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-CHECKPOINT_PATH = "checkpoints/generator_epoch30.pth"   # change if your last epoch differs
+CHECKPOINT_PATH = "checkpoints/generator_epoch69.pth"   # change if your last epoch differs
 IMAGE_SIZE = 256
 BATCH_SIZE = 8
 RESULTS_DIR = "results"
