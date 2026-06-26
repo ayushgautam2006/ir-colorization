@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data / model files
+checkpoints/
+data/tiles/
+data/raw/
+data/processed/
+results/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.npy
+*.tif
+*.tar.gz
+*.zip
+
+# Gradio cache
+.gradio/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+pystac-client
+boto3
+rasterio
+numpy
+pillow
